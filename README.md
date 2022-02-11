@@ -32,4 +32,4 @@ On the random points generated, the moelcules are placed and the final output st
 
 ![Polygon Surface with Adsorbed Points](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/plotSurface.jpg "Polygon Surface with Adsorbed Points")
 ![Surface with adsorbed molecules](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/Example13D.png "Surface with adsorbed molecules")
-![Surface with adsorbed molecules - Part2](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/Example13D.png "Surface with adsorbed molecules - Different angle")
+![Surface with adsorbed molecules - Part2](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/Example23D.png "Surface with adsorbed molecules - Different angle")
