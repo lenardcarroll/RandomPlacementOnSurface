@@ -321,6 +321,22 @@ for i in new_O_atoms:
 f.close()
 
 if args.plot == 'Y':
+    minx = polygonsurface[0][0]
+    miny = polygonsurface[0][1]
+    maxx = polygonsurface[0][0]
+    maxy = polygonsurface[0][1]
+    for i in polygonsurface:
+        if i[0]<minx:
+            minx = i[0]
+        if i[0]>maxx:
+            maxx = i[0]
+        if i[1]<miny:
+            miny = i[0]
+        if i[1]>maxy:
+            maxy = i[1]
+    minmaxX = maxx - minx
+    minmaxY = maxy - miny
+    wh = minmaxX/minmaxY
     X1 = []
     Y1= []
     for i in convex_points:
@@ -330,7 +346,7 @@ if args.plot == 'Y':
     plt.plot(X1,Y1,color='blue',lw=3)
     for i in O_atoms:
         plt.scatter(i[1],i[2],color='red',edgecolors='black',s=250,lw=2)
-    plt.gcf().set_size_inches(19.2, 14.4)
+    plt.gcf().set_size_inches(14.4*wh, 14.4)
     plt.grid(False)
     plt.xlabel("x-coordinates",fontsize=20)
     plt.ylabel("y-coordinates",fontsize=20)
