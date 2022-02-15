@@ -30,6 +30,8 @@ where <x3,y3,z3> = <0,0,0>, and a1,a2 ∈ [0,1], and a1+a2<=1.
 
 On the random points generated, the moelcules are placed and the final output structure generated and saved. Below is a simple plot and a 3D image.
 
+![Polygon Surface with Adsorbed Points](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/demonstration3.jpg "Polygon Surface with Triangles")
+![Polygon Surface with Adsorbed Points](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/demonstration4.jpg "Polygon Surface with Triangles and Adsorbed Points")
 ![Polygon Surface with Adsorbed Points](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/demonstration2.jpg "Polygon Surface with Adsorbed Points")
 ![Surface with adsorbed molecules](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/Example13D.png "Surface with adsorbed molecules")
 ![Surface with adsorbed molecules - Part2](https://raw.githubusercontent.com/lenardcarroll/RandomPlacementOnSurface/main/Example23D.png "Surface with adsorbed molecules - Different angle")
